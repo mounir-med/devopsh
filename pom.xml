@@ -1,0 +1,14 @@
+<!-- pom.xml -->
+<build>
+    <plugins>
+        <!-- ... autres plugins ... -->
+        <plugin>
+            <groupId>org.sonarsource.scanner.maven</groupId>
+            <artifactId>sonar-maven-plugin</artifactId>
+            <version>3.9.5</version>
+            <configuration>
+                <sonar.configLocation>sonar.properties</sonar.configLocation>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
